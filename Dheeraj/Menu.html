@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="menu.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+      }
+
+      .row {
+        margin: 0 -5px;
+      }
+
+      .row:after {
+        content: " ";
+        display: table;
+        clear: both;
+      }
+
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        background-color: #f1f1f1;
+        max-width: 300px;
+        max-height: 600px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-container">
+      <a href="index.html"
+        ><img
+          src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
+          alt="KFC-LOGO"
+      /></a>
+      <a href="Menu.html">Menu</a>
+      <div class="sign-in">
+        <a href="Account_Icon.svg"
+          ><img src="Account_Icon.svg" alt="Account_Icon"
+        /></a>
+        <a href="Sign in.html">Sign in</a>
+      </div>
+    </div>
+    <div class="StartOrder">
+      <h2 style="margin-top: 100px">
+        LET'S ORDER FOR DELIVERY, PICK UP OR DINE IN
+        <span class="btn"> Start Order</span>
+      </h2>
+    </div>
+    <div style="width: 100%; overflow: hidden">
+      <div
+        class="left"
+        style="
+          width: 300px;
+          float: left;
+          margin-left: 2%;
+          position: fixed;
+          top: 160px;
+        "
+      >
+        <h1>KFC MENU</h1>
+        <ol
+          style="
+            list-style-type: none;
+            margin-left: -25px;
+            line-height: 50px;
+            color: darkslategrey;
+          "
+        >
+          <li>Match Day Special</li>
+          <li>Chicken Buckets</li>
+          <li>Biryani Buckets</li>
+          <li>Box Meals</li>
+          <li>Burgers</li>
+          <li>Stay Home Special</li>
+          <li>Snacks</li>
+          <li>Beverages</li>
+        </ol>
+      </div>
+      <div class="right" style="margin-left: 320px">
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33781-0.jpg?ver=13.9"
+                alt="Howzzat Biryani Combo"
+                style="width: 100%"
+              />
+              <h1>Howzzat Biryani Combo</h1>
+              <p class="price">Rs.725</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-32055-0.jpg?ver=13.9"
+                alt="Veg Zinger Box"
+                style="width: 100%"
+              />
+              <h1>Veg Zinger Box (Small)</h1>
+              <p class="price">Rs.329</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33783-0.jpg?ver=13.9"
+                alt="Super 6s Bucket Meal"
+                style="width: 100%"
+              />
+              <h1>Super 6s Bucket Meal</h1>
+              <p class="price">Rs.978</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33787-0.jpg?ver=13.9"
+                alt="Dream Team Bucket"
+                style="width: 100%"
+              />
+              <h1>Dream Team Bucket</h1>
+              <p class="price">Rs.944</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33657-0.jpg?ver=13.9"
+                alt="Friendship Bucket"
+                style="width: 100%"
+              />
+              <h1>Friendship Bucket (Large)</h1>
+              <p class="price">Rs.734</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33659-0.jpg?ver=13.9"
+                alt="Mingles Bucket Meal"
+                style="width: 100%"
+              />
+              <h1>Mingles Bucket Meal</h1>
+              <p class="price">Rs.492</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33784-0.jpg?ver=13.9"
+                alt="Super 4s Bucket Meal"
+                style="width: 100%"
+              />
+              <h1>Super 4s Bucket Meal</h1>
+              <p class="price">Rs.869</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img
+                src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/A-33450-42354.jpg?ver=13.9"
+                alt="Popcorn Chicken Biryani Bucket (Large"
+                style="width: 100%"
+              />
+              <h1>Popcorn Chicken Biryani</h1>
+              <p class="price">Rs.499</p>
+              <p><button>Add to Cart</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

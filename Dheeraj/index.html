@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KFC</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+  </head>
+  <body>
+    <div class="top-container">
+      <a href="index.html"
+        ><img
+          src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
+          alt="KFC-LOGO"
+      /></a>
+      <a href="Menu.html">Menu</a>
+      <div class="sign-in">
+        <a href="Account_Icon.svg"
+          ><img src="Account_Icon.svg" alt="Account_Icon"
+        /></a>
+        <a href="Sign in.html">Sign in</a>
+      </div>
+    </div>
+    <div class="middle-container">
+      <div class="StartOrder">
+        <h2 style="margin-top: 100px">
+          LET'S ORDER FOR DELIVERY, PICK UP OR DINE IN
+          <span class="btn"> Start Order</span>
+        </h2>
+      </div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img
+            src="https://images.ctfassets.net/wtodlh47qxpt/bwwtSv4zmZZm42c5wSg8Z/bd28ca73bbefa15b45f14c994e72ed03/Matchday_Banner_1440x396px.jpg"
+          />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 2</div>
+          <img
+            src="https://images.ctfassets.net/wtodlh47qxpt/4w2NU51eNqAlF0S4k3YLTB/0872e046c202005f49e6c94489c8ce40/4Value_Burger_1440x396px.png"
+          />
+        </div>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      </script>
+      <div class="grey-bg">
+        <div
+          data-testid="pastorder-strips-test"
+          class="pastorder-stripes"
+        ></div>
+        <div class="Welcome" style="margin-left: 60px">
+          <h2>WELCOME TO KFC!</h2>
+        </div>
+      </div>
+    </div>
+    <div class="categories">
+      <h2>
+        NEW ARRIVALS <span><hr width="87%" style="float: right" /></span>
+      </h2>
+      <div class="card">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3355.jpg?ver=13.9"
+          alt="Match-Day-Special"
+          style="width: 100%"
+        />
+        <h1>Match Day Special</h1>
+        <p class="price">Rs.688</p>
+        <p><button>BUY</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3131.jpg?ver=13.9"
+          alt="Chicken"
+          style="width: 100%"
+        />
+        <h1>Chicken Buckets</h1>
+        <p class="price">Rs.550</p>
+        <p><button>BUY</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3342.jpg?ver=13.9"
+          alt="Biryani"
+          style="width: 100%"
+        />
+        <h1>Biryani Buckets</h1>
+        <p class="price">Rs.700</p>
+        <p><button>BUY</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3246.jpg?ver=13.9"
+          alt="Box Meals"
+          style="width: 100%"
+        />
+        <h1>Box Meals</h1>
+        <p class="price">Rs.590</p>
+        <p><button>BUY</button></p>
+      </div>
+      <div class="card">
+        <img
+          src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT3311.jpg?ver=13.9"
+          alt="Stay Home Special"
+          style="width: 100%"
+        />
+        <h1>Stay Home Special</h1>
+        <p class="price">Rs.690</p>
+        <p><button>BUY</button></p>
+      </div>
+    </div>
+  </body>
+</html>

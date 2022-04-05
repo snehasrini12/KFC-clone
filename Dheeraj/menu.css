@@ -1,0 +1,92 @@
+body{
+    margin-left: 0;
+}
+
+.top-container {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+.top-container a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.sign-in{
+    margin-left: 70%;
+  }
+
+.StartOrder{
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #000;
+}
+
+.btn {
+    background: #fc035e;
+    background-image: -webkit-linear-gradient(top, #fc035e, #fc0808);
+    background-image: -moz-linear-gradient(top, #fc035e, #fc0808);
+    background-image: -ms-linear-gradient(top, #fc035e, #fc0808);
+    background-image: -o-linear-gradient(top, #fc035e, #fc0808);
+    background-image: linear-gradient(to bottom, #fc035e, #fc0808);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc3c3c;
+    background-image: -webkit-linear-gradient(top, #fc3c3c, #fa3535);
+    background-image: -moz-linear-gradient(top, #fc3c3c, #fa3535);
+    background-image: -ms-linear-gradient(top, #fc3c3c, #fa3535);
+    background-image: -o-linear-gradient(top, #fc3c3c, #fa3535);
+    background-image: linear-gradient(to bottom, #fc3c3c, #fa3535);
+    text-decoration: none;
+  }
+
+  .pastorder-stripes {
+    width: 40px;
+    height: 20px;
+    background: repeating-linear-gradient(90deg,#e4002b,#e4002b 8px,#fff 0,#fff 16px);
+    margin-left: 60px;
+    margin-top: 0px;
+  }
+
+  .left{
+      margin-left: 20px;
+  }
+
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
